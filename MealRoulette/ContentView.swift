@@ -8,19 +8,29 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        
+        ZStack {
+            Color(red: 251/256, green: 255/256, blue: 0/256)
+                .ignoresSafeArea() //color yellow all over the screen
+            Image("risoniPastaSallad")
+                .resizable()
+                .scaledToFill()
+                .frame(width: 300, height: 200)
+            VStack {
+                Text("Meal selection")
+                    .font(.title)
+                    .bold()
+                Spacer()
+            
+            
+                Button("Press here") {
+                    
+                }
+            }
         }
-        .padding()
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
-}

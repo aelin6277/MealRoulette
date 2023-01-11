@@ -11,6 +11,9 @@
 		C358C792296B907900471B8C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C358C791296B907900471B8C /* ContentView.swift */; };
 		C358C794296B908300471B8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C358C793296B908300471B8C /* Assets.xcassets */; };
 		C358C797296B908300471B8C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C358C796296B908300471B8C /* Preview Assets.xcassets */; };
+		C358C7A0296B97D800471B8C /* SrirachaChickenTaco1.png in Resources */ = {isa = PBXBuildFile; fileRef = C358C79F296B97D800471B8C /* SrirachaChickenTaco1.png */; };
+		C358C7A2296B998600471B8C /* risoniPastaSallad.png in Resources */ = {isa = PBXBuildFile; fileRef = C358C7A1296B998600471B8C /* risoniPastaSallad.png */; };
+		C358C7A4296E263500471B8C /* ImageBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C358C7A3296E263500471B8C /* ImageBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		C358C791296B907900471B8C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C358C793296B908300471B8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C358C796296B908300471B8C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C358C79F296B97D800471B8C /* SrirachaChickenTaco1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SrirachaChickenTaco1.png; path = ../../../Desktop/SrirachaChickenTaco1.png; sourceTree = "<group>"; };
+		C358C7A1296B998600471B8C /* risoniPastaSallad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = risoniPastaSallad.png; path = ../../../Desktop/risoniPastaSallad.png; sourceTree = "<group>"; };
+		C358C7A3296E263500471B8C /* ImageBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				C358C78F296B907900471B8C /* MealRouletteApp.swift */,
 				C358C791296B907900471B8C /* ContentView.swift */,
+				C358C7A3296E263500471B8C /* ImageBootcamp.swift */,
+				C358C7A1296B998600471B8C /* risoniPastaSallad.png */,
+				C358C79F296B97D800471B8C /* SrirachaChickenTaco1.png */,
 				C358C793296B908300471B8C /* Assets.xcassets */,
 				C358C795296B908300471B8C /* Preview Content */,
 			);
@@ -126,6 +135,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C358C797296B908300471B8C /* Preview Assets.xcassets in Resources */,
+				C358C7A0296B97D800471B8C /* SrirachaChickenTaco1.png in Resources */,
+				C358C7A2296B998600471B8C /* risoniPastaSallad.png in Resources */,
 				C358C794296B908300471B8C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C358C792296B907900471B8C /* ContentView.swift in Sources */,
+				C358C7A4296E263500471B8C /* ImageBootcamp.swift in Sources */,
 				C358C790296B907900471B8C /* MealRouletteApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
